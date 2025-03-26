@@ -22,7 +22,7 @@ app = FastAPI(
 app.add_middleware(GZipMiddleware)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ваш-домен.ru"],
+    allow_origins=["https://shop-stegruslan.amvera.io"],
     allow_methods=["GET"],
 )
 
