@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?*
+Disallow: /cart/
+Disallow: /tmp/
+
+User-agent: Yandex
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+Sitemap: https://www.vitrinshop.ru/sitemap.xml
